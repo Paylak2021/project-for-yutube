@@ -1,0 +1,83 @@
+
+
+body{
+    font: 14px Arial, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}  
+
+img {
+    border: 0;
+}
+  
+h1, h2{
+    color: #d31616;
+    font-weight: normal;
+}
+h1{
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    border: 2px solid #d31616;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+ul{
+    list-style: armenian inside url(../img/checked.png);
+}
+
+ul li{
+    border: 1px solid #ccc;
+}
+
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background-color: #25b3ab ;
+    color: #fff;
+    font-weight: normal;
+}
+
+tr:nth-child(even) td {
+    background-color: #d7a6f8;
+}
+
+#top{
+    border-top: 2px solid #d31616;
+    border-bottom: 2px solid #d31616;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.myimg {
+    float: right;
+}
+
+
